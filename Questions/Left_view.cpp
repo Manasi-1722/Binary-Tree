@@ -62,8 +62,6 @@ int main()
    4  5  6  7 
 */
 
-
-
     Node* root = new Node(1);
     root->left = new Node(2);
     root->right = new Node(3);
