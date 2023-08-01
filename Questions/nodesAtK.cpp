@@ -66,10 +66,8 @@ int printNodesAtk(Node* root, Node* target, int k)
             printSubtreeNodes(root->left, k-dr-2);
         }
         return 1 + dr;
-    }
-    
+    }   
     return -1;
-
 }
 
 int main()
